@@ -128,3 +128,52 @@ body {
   text-decoration: none;
   border: solid 2px #f89c02;
 }
+
+/* О книге */
+.about {
+  background-color: #f1f1f1;
+  padding: 99px 0;
+}
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1140px;
+  margin: auto;
+}
+.about-book {
+  max-width: 454px;
+  flex-shrink: 0;
+}
+.about-author {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 552px;
+  box-shadow: 0 1px 120px rgba(161, 161, 161, 0.08);
+  border-radius: 10px;
+  border: solid 1px #f3f3f3;
+  background-color: #ffffff;
+  padding: 68px 53px;
+}
+.author-avatar {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.author-name {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+}
+.author-link {
+  font-size: 16px;
+  color: inherit;
+  text-decoration: none;
+}
+.author-txt {
+  flex-basis: 100%;
+}
+
+
