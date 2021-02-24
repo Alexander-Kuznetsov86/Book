@@ -204,7 +204,7 @@ body {
   padding-top: 167px;
   padding-bottom: 80px;
 }
-.readers-foto {
+.reader-foto {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -214,10 +214,10 @@ body {
   list-style-type: none;
   object-fit: cover;
 }
-.readers-item {
+.reader-item {
   margin-bottom: 29px;
 }
-.readers-img {
+.reader-img {
   display: block;
   width: 165px;
   height: 165px;
