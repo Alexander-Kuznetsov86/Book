@@ -19,6 +19,9 @@ body {
 }
 /* Шапка  сайта */
 .header {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
   background-color: #f1f1f1;
 }
 .header-container {
@@ -45,7 +48,7 @@ body {
 
 /* Главная секция */
 .hero {
-  padding-top: 62px;
+  padding-top: 120px;
   padding-bottom: 71px;
 }
 .hero-container {
@@ -54,8 +57,25 @@ body {
   display: flex;
   align-items: center;
 }
+.img-block {
+  position: relative;
+  margin-right: 122px;
+}
 .hero-img {
-  padding-right: 122px;
+  width: 460px;
+  height: 646px;
+}
+.sale-label {
+  position: absolute;
+  
+  top: 23px;
+  right: 0;
+  
+  padding: 12px 17px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  background-color: #c93535;
 }
 .hero-text {
 }
@@ -222,4 +242,59 @@ body {
   width: 165px;
   height: 165px;
   background-color: #ccc;
+}
+
+/* Подвал сайта */
+.footer {
+  position: relative;
+  background-color: #f1f1f1;
+}
+.footer-container {
+  display: flex; 
+  max-width: 1140px;
+  margin: auto;
+  padding-top: 59px;
+  padding-bottom: 89px;
+}
+.footer-list {
+  list-style-type: none;
+  padding: 0;
+}
+.footer-title {
+  margin-bottom: 32px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.footer-item {
+  margin-bottom: 15px;
+}
+.footer-item a{
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+.requisites {
+  margin-right: 166px;
+}
+.information {
+  margin-right: 158px;
+}
+.to-top {
+  position: fixed;
+  bottom: 91px;
+  right: 114px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  padding: 17px 19px;
+  border-radius: 4px;
+  border: solid 1px #eeeeee;
+  box-shadow: 0 1px 120px rgba(161, 161, 161, 0.80);
+  background-color: #fff;
+}
+.aarow-img {
+  width: 13px;
+  height: 16px;
+  
+  transform: rotate(90deg) ;
 }
