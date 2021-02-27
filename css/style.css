@@ -340,3 +340,63 @@ img {
     display: none;
   }
 }
+
+@media (max-width: 962px) {
+  .header-container,
+  .hero-container,
+  .about-container,
+  .readers-container,
+  .footer-container {
+    max-width: 762px;
+  }
+  .nav {
+    display: none;
+  }
+  .img-block {
+    max-width: 300px;
+    min-width: 300px;
+    margin-right: 25px;
+  }
+  .hero-img {
+    height: 418px;
+  }
+  .author {
+    font-size: 22px;
+    margin-bottom: 13px;
+  }
+  .title {
+    font-size: 46px;
+    margin-bottom: 11px;
+  }
+  .subtitle {
+    margin-bottom: 6px;
+  }
+  .info {
+    margin-bottom: 39px;
+  }
+  .price {
+    margin-bottom: 39px;
+  }
+  .btn {
+    padding: 18px 43px;
+  }
+  .about-container {
+    flex-wrap: wrap;
+  }
+  .about-book {
+    max-width: 750px;
+  }
+  
+  .reader-item:nth-child(n+9) {
+    display: none;
+  }
+  .reader-img {
+    max-width: 165px;
+  }
+  .requisites {
+    margin-right: 87px;
+  }
+  .information {
+    margin-right: 87px;
+  }
+}
