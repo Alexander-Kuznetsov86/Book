@@ -382,7 +382,7 @@ img {
     margin-bottom: 39px;
   }
   .btn {
-    padding: 18px 43px;
+    padding: 18px 40px;
   }
   .about-container {
     flex-wrap: wrap;
@@ -442,4 +442,68 @@ img {
   .information {
     margin-right: 0;
   }
+}
+
+@media (max-width: 576px) {
+  .header-container,
+  .hero-container,
+  .about-container,
+  .readers-container,
+  .footer-container {
+    max-width: 477px;
+  }
+  .hero-img {
+    min-height: 761px;
+  }
+  .author {
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+  .title {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  .subtitle {
+    max-width: 265px;
+    font-size: 20px;
+    margin-bottom: 22px;
+  }
+  .favorites {
+    display: none;
+  }
+  .info {
+    max-width: 225px;
+    display: flex;
+    flex-direction: column;
+  }
+  .info-format {
+    margin-bottom: 16px;
+  }
+  .buttons {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .btn-primary {
+    padding: 31px 172px;
+    margin-right: 0;
+    margin-bottom: 21px;
+  }
+  .btn-outline {
+    padding: 31px 184px;
+  }
+  .about-book {
+    max-width: 477px;
+  }
+  .reader-img {
+    max-width: 145px;
+    object-fit:cover
+  }
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 320px) {
+  
 }
