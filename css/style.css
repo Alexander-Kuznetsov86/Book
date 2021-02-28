@@ -520,10 +520,14 @@ img {
   .footer-container {
     max-width: 263px;
   }
+  .hero {
+    padding-top: 110px;
+    padding-bottom: 60px;
+  }
   .img-block {
     max-width: 263px;
     min-width: 263px;
-    margin-bottom: 0;
+    margin-bottom: 43;
   }
   .hero-img {
     width: 263px;
@@ -537,7 +541,7 @@ img {
   .btn-primary {
     padding: 22px 65px;
     margin-right: 0px;
-    margin-bottom: 21px;
+    margin-bottom: 16px;
   }
   .btn-outline {
     padding: 22px 77px;
@@ -549,14 +553,22 @@ img {
     max-width: 145px;
     object-fit:cover
   }
+  .about {
+    padding-top: 60px;
+    padding-bottom: 54px;
+  }
+  .section-title {
+    margin-top: 0;
+    margin-bottom: 36px;
+  }
   .about-author {
     max-width: 265px;
-    padding: 32px 12px;
+    padding: 32px 22px;
   }
   .author-avatar {
-    width: 50px;
-    height: 50px;
-    margin-right: 3px;
+    width: 60px;
+    height: 60px;
+    margin-right: 12px;
   }
   .author-name {
     font-size: 14px;
@@ -589,5 +601,11 @@ img {
   .footer-title {
     margin-top: 0;
     margin-bottom: 32px;
+  }
+  .requisites {
+    margin-right: 0;
+  }
+  .footer-container {
+    font-size: 16px;
   }
 }
