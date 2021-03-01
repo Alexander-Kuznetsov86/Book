@@ -72,7 +72,7 @@ img {
 .sale-label {
   position: absolute;
   
-  top: 0px;
+  top: 23px;
   right: 0;
   
   padding: 12px 17px;
@@ -225,24 +225,24 @@ img {
   background-color: #ffffff;
 }
 .readers-title {
+  margin-top: 0;
   margin-bottom: 56px;
 }
 .readers-container {
   padding-top: 167px;
-  padding-bottom: 80px;
+  padding-bottom: 109px;
 }
 .readers-foto {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
   padding: 0;
   margin: 0;
   list-style-type: none;
   object-fit: cover;
 }
 .reader-item {
-  margin-bottom: 29px;
+  margin-bottom: 25px;
 }
 .reader-img {
   display: block;
@@ -414,10 +414,11 @@ img {
     max-width: 560px;
   }
   .hero-container {
+    padding-top: 100px;
     flex-wrap: wrap;
   }
   .hero-img {
-    width: 560px;
+    width: 100%;
   }
   .img-block {
     display: flex;
@@ -454,7 +455,6 @@ img {
   }
   .img-block {
     max-width: 477px;
-    max-height: 761px;
   }
   .author {
     font-size: 18px;
@@ -489,11 +489,13 @@ img {
     flex-wrap: wrap;
   }
   .btn {
+    width: 100%;
     display: flex;
     justify-content: center;
     padding: 31px 0;
   }
   .btn-primary {
+    
     margin-right: 0;
     margin-bottom: 21px;
   }
