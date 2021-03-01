@@ -571,26 +571,32 @@ img {
   .footer-container {
     max-width: 263px;
   }
+  .header-container {
+    padding-left: 0;
+    padding-right: 0;
+  }
   .hero {
-    padding-top: 110px;
     padding-bottom: 60px;
   }
+  .hero-text {
+    margin-right: 0;
+    margin-left: 0;
+  }
   .img-block {
-    max-width: 263px;
-    min-width: 263px;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
     margin-bottom: 43;
+  }
+  .pricetag {
+    margin-right: 27px;
   }
   .sale-label {
     font-size: 14px;
     padding: 10px 12px;
   }
-  .btn-primary {
-    padding: 22px 65px;
-    margin-right: 0px;
-    margin-bottom: 16px;
-  }
-  .btn-outline {
-    padding: 22px 77px;
+  .btn {
+    width: 100%;
   }
   .about-book {
     max-width: 262px;
@@ -606,6 +612,10 @@ img {
   .section-title {
     margin-top: 0;
     margin-bottom: 36px;
+  }
+  .about-book {
+    padding-right: 0;
+    padding-left: 0;
   }
   .about-author {
     max-width: 265px;
